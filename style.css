@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards-black {
+  width: 400px;
+  height: 450px;
+  border-radius: 30px;
+  background: #232224;
+  box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+
+  margin-left: 30%;
+}
+
+.cards-dark{
+  width: 400px;
+  height: 450px;
+  border-radius: 30px;
+  background: #232639;
+  box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+
+  margin-left: 30%;
+
+}
+
+.cards-lite{
+  width: 400px;
+  height: 450px;
+  border-radius: 30px;
+  background: #FBFBFB;
+  box-shadow: 16px 16px 35px 0px rgba(0, 0, 0, 0.09);
+
+  margin-left: 30%;
+
+}
+
+
+
+
+
+.card-image {
+  padding-top: 30px;
+  position: relative;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+.like-comment {
+  content: "";
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  top: 35%;
+  left: 35%;
+}
+
+.like {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+background: #373737;
+align-items: center;
+gap: 10px;
+justify-content: center;
+}
+
+.like-txt {
+  color: #CECECE;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+.comment{
+  display: flex;
+
+width: 120px;
+height: 40px;
+border-radius: 10px;
+background: #373737;
+align-items: center;
+gap: 10px;
+justify-content: center;
+}
+
+.comment-txt {
+  color: #CECECE;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.card-h3 {
+  color: #CECECE;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 6px;
+
+
+}
+
+.card-p {
+  color: #CECECE;
+  margin-left: 25px;
+}
+
+.card-end {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.input-card input{
+
+
+width: 275px;
+height: 50px;
+flex-shrink: 0;
+background-color: #373737;
+border:none;
+border-radius: 5px;
+
+
+}
+
+
+.icon-right {
+  width: 60px;
+height: 50px;
+flex-shrink: 0;
+background-color: #644DEA;
+border-radius: 5px;
+padding-top: 10px;
+
+text-align: center;
+}
